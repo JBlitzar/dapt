@@ -648,7 +648,7 @@
         "uuid": "4e1b2389-739e-4378-9377-0be8bbf2010a"
       }
     ],
-    "used_designators": "R9-12,R15-24,USB5,USB8,USB10-11,USB13,USB15-25",
+    "used_designators": "B1-16,R9-12,R15-24,USB5,USB8,USB10-11,USB13,USB15-25",
     "variants": []
   },
   "sheets": [
