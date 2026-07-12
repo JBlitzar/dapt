@@ -32,6 +32,14 @@ There are some opinionated choices that were made:
 
 I made dapt because I wanted some dead-simple USB adapters, and I thought it'd be a fun project.
 
+Current adapters:
+- A female to A female
+- A female to C male
+- A male to A male
+- A male to C female
+- C female to C female
+- C female to micro male
+
 ## Schematics
 
 | Variant | Schematic |
