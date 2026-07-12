@@ -2,6 +2,15 @@
 
 ## [Please read] About cost.
 
+So looking at the bom, you can see that it's super expensive, like $50. You might be thinking, "what's going on there? I thought this project was explicitly focused on being low-cost!"
+
+
+There are a few points I'd like to preempt.
+
+1. I'm not going to spend $50 building this, and if I do so it'll be fine because I can pay out of pocket. That's the BOM for the souped-up set of ALL the adapters in large quantities. I'm going to pick and choose which ones to do, and do it in small quantities. I'm going to end up paying like $15 personally. 
+2. There's not really a way to BOM-optimize. Contention genuinely is really high, because LCSC doesn't specialize in THT hobby-solderable components. USB-C SMD genuinely cannot be hand-soldered with a hot plate. If you're trying to make 100 of these, please just buy PCBA and get dirt-cheap SMD components. Right now THT pricing is hit-or-miss. Some are dirt cheap, others are not. 
+3. I *could* swap everything out for SMD and order PCBA myself, but at that point it's genuinely a different project. This is what there is. 
+
 
 
 ## Images
