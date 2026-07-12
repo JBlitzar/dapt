@@ -23,6 +23,28 @@ There are some opinionated choices that were made:
 
 I made dapt because I wanted some dead-simple USB adapters, and I thought it'd be a fun project.
 
+## Schematics
+
+| Variant | Schematic |
+|---------|-----------|
+| A female to A female | ![A female to A female schematic](docs/sch_a_fem_a_fem.png) |
+| A female to C male | ![A female to C male schematic](docs/sch_a_fem_c_male.png) |
+| A male to A male | ![A male to A male schematic](docs/sch_a_male_a_male.png) |
+| A male to C female | ![A male to C female schematic](docs/sch_a_male_c_fem.png) |
+| C female to C female | ![C female to C female schematic](docs/sch_c_fem_c_fem.png) |
+| C female to micro male | ![C female to micro male schematic](docs/sch_c_fem_micro_male.png) |
+
+## PCB
+
+| Variant | PCB |
+|---------|-----|
+| A female to A female | ![A female to A female PCB](docs/pcb_a_fem_a_fem.png) |
+| A female to C male | ![A female to C male PCB](docs/pcb_a_fem_c_male.png) |
+| A male to A male | ![A male to A male PCB](docs/pcb_a_male_a_male.png) |
+| A male to C female | ![A male to C female PCB](docs/pcb_a_male_c_fem.png) |
+| C female to C female | ![C female to C female PCB](docs/pcb_c_fem_c_fem.png) |
+| C female to micro male | ![C female to micro male PCB](docs/pcb_c_fem_micro_male.png) |
+
 ## Production files
 
 in `PCB/exported_variants/gerbers`. A bit unique because this is multiple boards/variants in one.
