@@ -15,7 +15,7 @@ There are a few points I'd like to preempt.
 
 ## Images
 
-![](banner.png)
+![](docs/banner.png)
 
 There are no other enclosures, so this is the 3D model too. A STEP export is at `dapt.step`
 
