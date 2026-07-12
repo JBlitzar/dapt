@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# Full disclosure this script was written by AI because I couldn't be bothered to write it myself. 
+
 set -e
 KC="kicad-cli"
 command -v kicad-cli >/dev/null 2>&1 || KC="/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli"
