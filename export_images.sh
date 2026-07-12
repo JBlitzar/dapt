@@ -13,7 +13,9 @@ for i in "${!sch[@]}"; do
   n="${pcb[$i]}"
   "$KC" sch export svg -o "$TMP" "$SCH_DIR/${sch[$i]}.kicad_sch"
   rsvg-convert -b white -w 1600 -o "$OUT/sch_${n}.png" "$TMP/${sch[$i]}.svg"
-  "$KC" pcb export svg -o "$TMP/pcb_${n}.svg" --layers "F.Cu,F.Mask,F.SilkS,Edge.Cuts" --mode-single --fit-page-to-board --exclude-drawing-sheet "$PCB_DIR/${n}.kicad_pcb"
-  rsvg-convert -b "#001124" -w 1600 -o "$OUT/pcb_${n}.png" "$TMP/pcb_${n}.svg"
+  "$KC" pcb export svg -o "$TMP/pcb_${n}_front.svg" --layers "F.Cu,F.Mask,F.SilkS,Edge.Cuts" --mode-single --fit-page-to-board --exclude-drawing-sheet "$PCB_DIR/${n}.kicad_pcb"
+  rsvg-convert -b "#001124" -w 1600 -o "$OUT/pcb_${n}_front.png" "$TMP/pcb_${n}_front.svg"
+  "$KC" pcb export svg -o "$TMP/pcb_${n}_back.svg" --layers "B.Cu,B.Mask,B.SilkS,Edge.Cuts" --mirror --mode-single --fit-page-to-board --exclude-drawing-sheet "$PCB_DIR/${n}.kicad_pcb"
+  rsvg-convert -b "#001124" -w 1600 -o "$OUT/pcb_${n}_back.png" "$TMP/pcb_${n}_back.svg"
 done
 rm -rf "$TMP"

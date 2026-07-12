@@ -53,14 +53,14 @@ Current adapters:
 
 ## PCB
 
-| Variant | PCB |
-|---------|-----|
-| A female to A female | ![A female to A female PCB](docs/pcb_a_fem_a_fem.png) |
-| A female to C male | ![A female to C male PCB](docs/pcb_a_fem_c_male.png) |
-| A male to A male | ![A male to A male PCB](docs/pcb_a_male_a_male.png) |
-| A male to C female | ![A male to C female PCB](docs/pcb_a_male_c_fem.png) |
-| C female to C female | ![C female to C female PCB](docs/pcb_c_fem_c_fem.png) |
-| C female to micro male | ![C female to micro male PCB](docs/pcb_c_fem_micro_male.png) |
+| Variant | Front | Back |
+|---------|-------|------|
+| A female to A female | ![A female to A female PCB front](docs/pcb_a_fem_a_fem_front.png) | ![A female to A female PCB back](docs/pcb_a_fem_a_fem_back.png) |
+| A female to C male | ![A female to C male PCB front](docs/pcb_a_fem_c_male_front.png) | ![A female to C male PCB back](docs/pcb_a_fem_c_male_back.png) |
+| A male to A male | ![A male to A male PCB front](docs/pcb_a_male_a_male_front.png) | ![A male to A male PCB back](docs/pcb_a_male_a_male_back.png) |
+| A male to C female | ![A male to C female PCB front](docs/pcb_a_male_c_fem_front.png) | ![A male to C female PCB back](docs/pcb_a_male_c_fem_back.png) |
+| C female to C female | ![C female to C female PCB front](docs/pcb_c_fem_c_fem_front.png) | ![C female to C female PCB back](docs/pcb_c_fem_c_fem_back.png) |
+| C female to micro male | ![C female to micro male PCB front](docs/pcb_c_fem_micro_male_front.png) | ![C female to micro male PCB back](docs/pcb_c_fem_micro_male_back.png) |
 
 ## Production files
 
