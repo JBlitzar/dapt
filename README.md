@@ -64,7 +64,7 @@ Current adapters:
 
 ## Production files
 
-in `PCB/exported_variants/gerbers`. A bit unique because this is multiple boards/variants in one.
+in [`PCB/exported_variants/gerbers`](PCB/exported_variants/gerbers). A bit unique because this is multiple boards/variants in one.
 
 
 ## BOM
